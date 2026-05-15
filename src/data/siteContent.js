@@ -1,5 +1,5 @@
-import logo from "../../images/logo.png";
-import galleryVideo from "../../images/IMG_9781.MOV";
+import logo from "../assets/logo.png";
+import galleryVideo from "../assets/IMG_9781.MOV";
 import heroBench from "../assets/repair-bench.jpeg";
 import heroDrone from "../assets/hero-drone.jpeg";
 import repairBench from "../assets/repair-bench.jpeg";
