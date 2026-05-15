@@ -40,7 +40,6 @@ function Footer() {
 
       <div className="container footer-bottom">
         <span>© {new Date().getFullYear()} Drone Fixr. All rights reserved.</span>
-        <Link to="/">Back to top</Link>
       </div>
     </footer>
   );

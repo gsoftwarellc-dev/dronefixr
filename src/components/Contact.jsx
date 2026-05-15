@@ -58,14 +58,19 @@ function Contact() {
 
         <div className="contact-grid">
           <aside className="contact-panel">
-            <div className="contact-panel__header">
-              <span>Urgent drone repair</span>
+            <div className="contact-panel__left">
+              <span className="contact-eyebrow">Urgent drone repair</span>
               <h3>Call first for the fastest repair intake.</h3>
               <a className="contact-phone-hero" href={brand.phoneHref}>{brand.phone}</a>
               <p>Use the fastest option for your schedule. The Midland 24/7 Dropbox is available anytime.</p>
+              <div className="contact-actions">
+                <ButtonLink href={brand.phoneHref} variant="light">
+                  Call Now
+                </ButtonLink>
+              </div>
             </div>
 
-            <div className="contact-card-list">
+            <div className="contact-panel__right">
               {contactCards.map((card) => (
                 <div className={`contact-card ${card.featured ? "contact-card--featured" : ""}`} key={card.label}>
                   <div className="contact-card__icon">
@@ -77,12 +82,6 @@ function Contact() {
                   </div>
                 </div>
               ))}
-            </div>
-
-            <div className="contact-actions">
-              <ButtonLink href={brand.phoneHref} variant="primary">
-                Call Now
-              </ButtonLink>
             </div>
           </aside>
         </div>
