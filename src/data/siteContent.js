@@ -14,10 +14,12 @@ export const brand = {
   phoneHref: "tel:3343332986",
   email: "john.carter.cole@gmail.com",
   emailHref: "mailto:john.carter.cole@gmail.com",
-  primaryLocation: "Midland, Alabama",
-  locationClaim: "No. 1 Drone Repair Shop in Midland, Alabama",
+  primaryLocation: "Dothan, Alabama",
+  locationClaim: "No. 1 Drone Repair Shop in Dothan, Alabama",
   dropboxAddress: "39 Gateway Drive, Midland City, AL 36350",
   shippingAddress: "115 Ayreswood Drive, Dothan, AL 36303",
+  repairIntakeForm:
+    "https://docs.google.com/forms/d/e/1FAIpQLSctuBekrSEay04QXOLpvbcoDXF6qhNl-TaP0I9F_AjLKjIT_A/viewform",
   diagnosticFee: "$40",
   logo,
 };
@@ -89,7 +91,7 @@ export const processSteps = [
   {
     title: "Drop off or ship your drone",
     description:
-      "Use the 24/7 Dropbox in Midland City or ship your drone to the Dothan repair address.",
+      "Use the 24/7 Dropbox at the local drop-off address or ship your drone to the Dothan repair address.",
   },
   {
     title: "Pay the $40 diagnostic fee",

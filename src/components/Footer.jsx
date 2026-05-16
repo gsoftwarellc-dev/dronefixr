@@ -9,7 +9,7 @@ function Footer() {
           <img src={brand.logo} alt="Drone Fixr logo" />
           <p>{brand.tagline}</p>
           <span>
-            Midland, Alabama drone diagnostics, repairs, calibration, firmware support, and flight
+            Dothan, Alabama drone diagnostics, repairs, calibration, firmware support, and flight
             upgrades with 24/7 drop-off and ship-in service options.
           </span>
         </div>

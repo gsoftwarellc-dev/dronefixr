@@ -9,13 +9,13 @@ function DropboxPage() {
       <section className="page-hero">
         <div className="container page-hero__grid">
           <div>
-            <h1>Drop off your drone anytime in Midland, Alabama.</h1>
+            <h1>Drop off your drone anytime for Dothan, Alabama service.</h1>
             <p>
               The Drone Fixr dropbox is available 24/7 at {brand.dropboxAddress}. It is the easiest
-              way to submit a Midland drone repair outside normal shop hours.
+              way to submit a Dothan-area drone repair outside normal shop hours.
             </p>
             <div className="hero-actions">
-              <ButtonLink href="/contact">Start Dropbox Repair</ButtonLink>
+              <ButtonLink href={brand.repairIntakeForm}>Open Intake Form</ButtonLink>
               <ButtonLink href={brand.phoneHref} variant="secondary">
                 Call Now
               </ButtonLink>

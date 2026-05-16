@@ -414,6 +414,11 @@ main {
   line-height: 1.35;
 }
 
+.home-page .hero-highlights span,
+.home-page .services .service-card p {
+  color: var(--rich-black);
+}
+
 .hero-media {
   position: relative;
   min-height: 590px;
@@ -1391,6 +1396,12 @@ main {
   color: var(--muted);
   font-size: clamp(1.06rem, 2vw, 1.22rem);
   line-height: 1.7;
+}
+
+.services-page .page-hero p,
+.services-page .services .section-header p,
+.services-page .services .service-card p {
+  color: var(--rich-black);
 }
 
 .page-hero img {

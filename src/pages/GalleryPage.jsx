@@ -46,7 +46,7 @@ function GalleryPage() {
         <SectionHeader
           eyebrow="Gallery"
           title="Drone Fixr repair photos"
-          text="Browse repair bench, teardown, diagnostics, calibration, and service photos from the Midland, Alabama shop."
+          text="Browse repair bench, teardown, diagnostics, calibration, and service photos from the Dothan, Alabama shop."
         />
 
         <div className="gallery-grid">

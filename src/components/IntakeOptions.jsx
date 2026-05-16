@@ -7,17 +7,17 @@ function IntakeOptions() {
       <div className="container intake-grid">
         <article className="intake-card intake-card--dark" id="dropbox">
           <span className="eyebrow">24/7 Dropbox</span>
-          <h2>Drop off your drone anytime in Midland, Alabama.</h2>
+          <h2>Drop off your drone anytime for Dothan, Alabama service.</h2>
           <p>
-            Use the Drone Fixr dropbox in Midland when your schedule does not match shop hours.
-            Leave your drone securely, then start the diagnostic and quote process.
+            Use the Drone Fixr dropbox near Dothan when your schedule does not match shop hours.
+            Leave your drone securely, then start the diagnostic and quote process online.
           </p>
           <div className="address-block">
             <span>Available anytime at</span>
             <strong>{brand.dropboxAddress}</strong>
           </div>
-          <ButtonLink href="/contact" variant="light">
-            Start Dropbox Repair
+          <ButtonLink href={brand.repairIntakeForm} variant="light">
+            Open Repair Intake Form
           </ButtonLink>
         </article>
 
@@ -34,6 +34,9 @@ function IntakeOptions() {
               <span>Ship your drone to</span>
               <strong>{brand.shippingAddress}</strong>
             </div>
+            <ButtonLink href={brand.repairIntakeForm} variant="secondary">
+              Submit Intake Form
+            </ButtonLink>
           </div>
         </article>
       </div>

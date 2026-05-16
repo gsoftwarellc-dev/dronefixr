@@ -5,7 +5,7 @@ import SectionHeader from "./SectionHeader.jsx";
 const contactCards = [
   {
     icon: "pin",
-    label: "Midland main shop and 24/7 Dropbox",
+    label: "Dothan-area 24/7 Dropbox",
     value: brand.dropboxAddress,
     featured: true,
   },
@@ -52,8 +52,8 @@ function Contact() {
       <div className="container">
         <SectionHeader
           eyebrow="Start repair"
-          title="Contact the No. 1 Drone Repair Shop in Midland, Alabama"
-          text="Drone repair is urgent. Call now, drop off at the Midland 24/7 Dropbox, or ship your drone in for diagnosis."
+          title="Contact the No. 1 Drone Repair Shop in Dothan, Alabama"
+          text="Drone repair is urgent. Call now, open the intake form, drop off at the 24/7 Dropbox, or ship your drone in for diagnosis."
         />
 
         <div className="contact-grid">
@@ -62,10 +62,13 @@ function Contact() {
               <span className="contact-eyebrow">Urgent drone repair</span>
               <h3>Call first for the fastest repair intake.</h3>
               <a className="contact-phone-hero" href={brand.phoneHref}>{brand.phone}</a>
-              <p>Use the fastest option for your schedule. The Midland 24/7 Dropbox is available anytime.</p>
+              <p>Use the fastest option for your schedule. The Dothan-area 24/7 Dropbox is available anytime.</p>
               <div className="contact-actions">
                 <ButtonLink href={brand.phoneHref} variant="light">
                   Call Now
+                </ButtonLink>
+                <ButtonLink href={brand.repairIntakeForm} variant="secondary">
+                  Intake Form
                 </ButtonLink>
               </div>
             </div>
@@ -94,7 +97,7 @@ function Contact() {
             referrerPolicy="no-referrer-when-downgrade"
           />
           <div className="map-card__label">
-            <strong>Midland 24/7 Dropbox Location</strong>
+            <strong>Dothan-Area 24/7 Dropbox Location</strong>
             <span>{brand.dropboxAddress}</span>
           </div>
         </div>

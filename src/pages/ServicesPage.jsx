@@ -5,14 +5,14 @@ import { brand, images } from "../data/siteContent.js";
 
 function ServicesPage() {
   return (
-    <>
+    <div className="services-page">
       <section className="page-hero">
         <div className="container page-hero__grid">
           <div>
             <h1>{brand.locationClaim}.</h1>
             <p>
               Crash repair, sensor service, calibration, firmware support, drone sales, and flight
-              upgrades from a focused Midland, Alabama repair bench.
+              upgrades from a focused Dothan, Alabama repair bench.
             </p>
             <div className="hero-actions">
               <ButtonLink href="/contact">Start a Repair</ButtonLink>
@@ -26,7 +26,7 @@ function ServicesPage() {
       </section>
       <Services />
       <Contact />
-    </>
+    </div>
   );
 }
 

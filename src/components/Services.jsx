@@ -8,8 +8,8 @@ function Services() {
       <div className="container">
         <SectionHeader
           eyebrow="Repair services"
-          title="Midland, Alabama drone service from intake to flight-ready"
-          text="From crash repair to calibration, Drone Fixr keeps the process clear for Midland-area pilots and ship-in customers."
+          title="Dothan, Alabama drone service from intake to flight-ready"
+          text="From crash repair to calibration, Drone Fixr keeps the process clear for Dothan-area pilots and ship-in customers."
         />
 
         <div className="service-grid">

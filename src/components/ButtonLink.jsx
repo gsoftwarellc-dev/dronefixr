@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 function ButtonLink({ href, children, variant = "primary", className = "" }) {
   const classes = `button button--${variant} ${className}`.trim();
   const isRoute = href.startsWith("/");
+  const isExternal = /^https?:\/\//.test(href);
 
   if (isRoute) {
     return (
@@ -16,7 +17,11 @@ function ButtonLink({ href, children, variant = "primary", className = "" }) {
   }
 
   return (
-    <a className={classes} href={href}>
+    <a
+      className={classes}
+      href={href}
+      {...(isExternal ? { target: "_blank", rel: "noreferrer" } : {})}
+    >
       <span>{children}</span>
       <svg aria-hidden="true" viewBox="0 0 24 24">
         <path d="M5 12h13m-6-6 6 6-6 6" />

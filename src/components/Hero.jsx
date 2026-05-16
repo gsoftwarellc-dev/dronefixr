@@ -24,7 +24,7 @@ function Hero() {
           <div className="hero-highlights" aria-label="Repair highlights">
             <div>
               <strong>24/7</strong>
-              <span>Midland dropbox access</span>
+              <span>Dothan-area dropbox access</span>
             </div>
             <div>
               <strong>$40</strong>
@@ -32,7 +32,7 @@ function Hero() {
             </div>
             <div>
               <strong>2 ways</strong>
-              <span>Drop off in Midland or ship in</span>
+              <span>Drop off near Dothan or ship in</span>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ function Hero() {
           <div className="hero-media__card">
             <img src={images.heroDrone} alt="DJI drone on repair bench" />
             <div>
-              <span>Midland repair intake</span>
+              <span>Dothan repair intake</span>
               <strong>Teardown, quote, repair, return.</strong>
             </div>
           </div>

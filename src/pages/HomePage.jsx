@@ -7,14 +7,14 @@ import Contact from "../components/Contact.jsx";
 
 function HomePage() {
   return (
-    <>
+    <div className="home-page">
       <Hero />
       <Services />
       <HowItWorks />
       <IntakeOptions />
       <Testimonials />
       <Contact />
-    </>
+    </div>
   );
 }
 

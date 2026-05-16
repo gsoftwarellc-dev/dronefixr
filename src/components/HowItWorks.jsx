@@ -56,7 +56,7 @@ function HowItWorks() {
             simple drop-off or ship-in options.
           </p>
           <div className="process-badges">
-            <span>24/7 Midland Dropbox</span>
+            <span>24/7 Dothan-Area Dropbox</span>
             <span>{brand.diagnosticFee} Diagnostic Fee</span>
             <span>Quote Before Repair</span>
           </div>
