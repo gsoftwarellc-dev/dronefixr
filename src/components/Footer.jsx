@@ -39,7 +39,7 @@ function Footer() {
       </div>
 
       <div className="container footer-bottom">
-        <span>© {new Date().getFullYear()} Drone Fixr. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Drone Fixr. All rights reserved. | All glory be to God</span>
       </div>
     </footer>
   );
